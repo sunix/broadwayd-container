@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora:32
 RUN dnf -y update && dnf -y install \
       dbus dbus-daemon dbus-glib \
       xorg-x11-server-utils \
